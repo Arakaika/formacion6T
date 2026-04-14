@@ -1,0 +1,102 @@
+.nav-card {
+  cursor: pointer;
+  border: 2px solid #eee;
+  border-radius: 16px;
+  padding: 1.5rem;
+  height: 100%;
+  transition: all 0.3s ease;
+  background: white;
+}
+
+.nav-card:hover {
+  border-color: #0d6efd;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+  transform: translateY(-5px);
+}
+
+.x-small { font-size: 0.75rem; }
+.cursor-pointer { cursor: pointer; }
+
+.list-group-item-action {
+    transition: all 0.2s;
+    border-left: 4px solid transparent;
+}
+
+.list-group-item:has(input:checked) {
+    background-color: #e7f1ff;
+    border-left: 4px solid #0d6efd;
+}
+
+.border-dashed {
+    border-style: dashed !important;
+}
+
+/* Scroll delgado */
+.overflow-auto::-webkit-scrollbar { width: 5px; }
+.overflow-auto::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 10px;
+}
+
+:root {
+  --6t-green: #4db748; /* El verde brillante del 6 */
+  --6t-blue: #1d366d;  /* El azul oscuro del texto */
+  --6t-gradient: linear-gradient(90deg, #4db748 0%, #1d366d 100%);
+}
+
+/* Estilos del Encabezado */
+.header-6t {
+  background-color: #ffffff;
+  border-bottom: 4px solid var(--6t-green);
+  margin-bottom: 2rem;
+}
+
+.logo-header {
+  max-height: 50px; /* Ajusta según prefieras */
+  width: auto;
+}
+
+/* Personalización de Tarjetas y Botones */
+.nav-card:hover {
+  border-color: var(--6t-green) !important;
+  box-shadow: 0 10px 20px rgba(77, 183, 72, 0.15) !important;
+}
+
+.btn-primary {
+  background: var(--6t-gradient) !important;
+  border: none !important;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  opacity: 0.9;
+  transform: scale(1.02);
+}
+
+.text-primary {
+  color: var(--6t-blue) !important;
+}
+
+.badge.bg-primary {
+  background-color: var(--6t-blue) !important;
+}
+
+/* Estilo para los bloques de curso en el formulario */
+.bloque-curso {
+  border-left: 5px solid var(--6t-green) !important;
+}
+
+.list-group-item:has(input:checked) {
+  background-color: rgba(77, 183, 72, 0.1) !important;
+  border-left: 5px solid var(--6t-green) !important;
+}
+
+/* Botón de agregar curso con estilo discontinuo */
+#btn-agregar-curso {
+  color: var(--6t-blue);
+  border: 2px dashed var(--6t-blue);
+}
+
+#btn-agregar-curso:hover {
+  background-color: rgba(29, 54, 109, 0.05);
+}
