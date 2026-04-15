@@ -421,7 +421,7 @@ function agregarBloqueCurso() {
         </div>
         <div class="row g-2 mb-3">
             <div class="col-md-6">
-                <label class="small fw-bold mb-1catSelect.innerHTML">Tema</label>
+                <label class="small fw-bold mb-1">Tema</label>
                 <select id="tema-${index}" required class="form-select" onchange="actualizarCategorias(${index})">
                     <option value="">-- Seleccionar --</option>
                     ${dataCursos.map(t => `<option value="${t.id}">${t.nombre}</option>`).join('')}
