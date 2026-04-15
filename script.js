@@ -233,3 +233,47 @@ function eliminarBloque(idx) {
     document.getElementById(`bloque-curso-${idx}`).remove();
     contadorCursos--;
 }
+
+document.getElementById('registro-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    const btnEnvio = e.target.querySelector('button[type="submit"]');
+    btnEnvio.disabled = true;
+    btnEnvio.innerText = "Enviando...";
+
+    // Recopilar los cursos seleccionados
+    const cursosElegidos = Array.from(document.querySelectorAll('input[type="radio"]:checked'))
+                                .map(r => r.value);
+
+    const formData = new FormData();
+    formData.append('nombre', e.target.querySelector('input[type="text"]').value);
+    formData.append('correo', e.target.querySelector('input[type="email"]').value);
+    formData.append('telefono', e.target.querySelector('input[type="tel"]').value);
+    formData.append('direccion', e.target.querySelectorAll('input[type="text"]')[1].value);
+    formData.append('induccion', e.target.querySelector('select').value);
+    
+    // Añadir hasta 4 cursos
+    cursosElegidos.forEach((curso, i) => {
+        formData.append(`curso${i+1}`, curso);
+    });
+
+    // REEMPLAZA ESTA URL CON LA QUE COPIASTE DE GOOGLE
+    const URL_GOOGLE_SCRIPT = "https://script.google.com/macros/s/AKfycbyZzFteCkMwoZdrMXuf4pXR2yu1n-2rdG6PxhbIRhR2TZ2X8D225EhhVX85ZgY40npW/exec";
+
+    fetch(URL_GOOGLE_SCRIPT, {
+        method: 'POST',
+        body: formData,
+        mode: 'no-cors' // Importante para evitar bloqueos de seguridad
+    })
+    .then(() => {
+        alert("¡Registro exitoso! Nos pondremos en contacto pronto.");
+        e.target.reset();
+        location.reload(); // Recarga para limpiar los bloques de cursos
+    })
+    .catch(error => {
+        console.error('Error:', error);
+        alert("Hubo un problema al enviar. Intenta de nuevo.");
+        btnEnvio.disabled = false;
+        btnEnvio.innerText = "Enviar Solicitud";
+    });
+});
