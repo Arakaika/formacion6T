@@ -263,7 +263,7 @@ document.getElementById('registro-form').addEventListener('submit', function(e) 
     fetch(URL_GOOGLE_SCRIPT, {
         method: 'POST',
         body: formData,
-        mode: 'no-cors' // Importante para evitar bloqueos de seguridad
+        mode: 'cors' // Importante para evitar bloqueos de seguridad
     })
     .then(() => {
         alert("¡Registro exitoso! Nos pondremos en contacto pronto.");
