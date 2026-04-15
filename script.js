@@ -258,12 +258,12 @@ document.getElementById('registro-form').addEventListener('submit', function(e) 
     });
 
     // REEMPLAZA ESTA URL CON LA QUE COPIASTE DE GOOGLE
-    const URL_GOOGLE_SCRIPT = "https://script.google.com/macros/s/AKfycbyZzFteCkMwoZdrMXuf4pXR2yu1n-2rdG6PxhbIRhR2TZ2X8D225EhhVX85ZgY40npW/exec";
+    const URL_GOOGLE_SCRIPT = "https://script.google.com/macros/s/AKfycbwKAPIya9C7hpKanME5fBaO5WM0PHztemFh7iffegUvC58igXhN6XCs3ztEylILDIpI/exec";
 
     fetch(URL_GOOGLE_SCRIPT, {
         method: 'POST',
         body: formData,
-        mode: 'cors' // Importante para evitar bloqueos de seguridad
+        mode: 'no-cors' // Importante para evitar bloqueos de seguridad
     })
     .then(() => {
         alert("¡Registro exitoso! Nos pondremos en contacto pronto.");
