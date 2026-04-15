@@ -91,7 +91,7 @@ const dataCursos = [
       ]
   },  
   {
-      id: "tema-3",
+      id: "tema-3",C
       nombre: "Administración Pública y Participación Ciudadana",
       desc: "AQUÍ TAMBIÉN.",
       subgrupos: [
@@ -117,28 +117,28 @@ const dataCursos = [
           },
           {
               id: "sub-3-3",
-              nombre: "Prevención de la Corrupción",
+              nombre: "Prevención contra la Corrupción",
               cursos: [
-                { titulo: "Cuerpo Nacional Contra La Corrupción: Una Perspectiva Institucional", desc: "Dar a conocer las competencias atribuidas al CNCC como ente generador de políticas y estrategias anticorrupción.", mod: "" },
-                { titulo: "Herramientas Para La Prevención En La Lucha Contra La Corrupción", desc: "Familiarizar a los participantes sobre el fenómeno de la corrupción y su impacto, para generar una conciencia inclusiva en la lucha por la erradicación de este flagelo.", mod: "" },
-                { titulo: "La Corrupción En El Ordenamiento Jurídico Venezolano", desc: "Identificar la regulación jurídica de las conductas establecidas como delitos contra la corrupción en la Ley Contra la Corrupción, generando herramientas para distinguir actos de corrupción.", mod: "" },
+                { titulo: "Cuerpo Nacional contra la Corrupción: una Perspectiva Institucional", desc: "Dar a conocer las competencias atribuidas al CNCC como ente generador de políticas y estrategias anticorrupción.", mod: "" },
+                { titulo: "Herramientas para la Prevención en la Lucha contra la Corrupción", desc: "Familiarizar a los participantes sobre el fenómeno de la corrupción y su impacto, para generar una conciencia inclusiva en la lucha por la erradicación de este flagelo.", mod: "" },
+                { titulo: "La Corrupción en el Ordenamiento Jurídico Venezolano", desc: "Identificar la regulación jurídica de las conductas establecidas como delitos contra la corrupción en la Ley Contra la Corrupción, generando herramientas para distinguir actos de corrupción.", mod: "" },
                 { titulo: "La Contraloría Social como Manifestación del Poder Popular", desc: "Proveer los conocimientos para ejercer correctamente el control, fiscalización y vigilancia de la ejecución del plan de desarrollo comunitario, previniendo irregularidades.", mod: "" },
-                { titulo: "Transversalidad De La Función Contralora En La Prevención Contra Los Delitos De Corrupción", desc: "Dar a los participantes los conocimientos para comprender la actividad que ejerce la Contraloría para juzgar y conocer de las cuentas de personas que tienen bajo su responsabilidad fondos o bienes públicos.", mod: "" },
-                { titulo: "Técnicas De Investigación En Caso De Delitos De Corrupción", desc: "Proporcionar los conocimientos necesarios para seguir paso a paso técnicas de investigación que ayuden a observar y analizar hechos de corrupción dentro del marco constitucional.", mod: "" },
-                { titulo: "La Corrupción Como Delito Precedente En La Legitimación De Capitales", desc: "Identificar las características del delito de Legitimación de Capitales y su regulación en el ordenamiento jurídico venezolano, en conexión con los delitos de corrupción.", mod: "" },
-                { titulo: "La Lucha Contra La Corrupción Y Su Incidencia Desde El Punto De Vista Internacional", desc: "Determinar las consecuencias que tiene el flagelo de la corrupción desde el punto de vista internacional.", mod: "" },
-                { titulo: "La Ética Del funcionario Público", desc: "Ofrecer elementos conceptuales respecto a la ética, la importancia de la actuación apegada a ella, y su impacto en la calidad de vida y el desarrollo del país.", mod: "" },
+                { titulo: "Transversalidad de la Función Contralora en la Prevención contra los Delitos de Corrupción", desc: "Dar a los participantes los conocimientos para comprender la actividad que ejerce la Contraloría para juzgar y conocer de las cuentas de personas que tienen bajo su responsabilidad fondos o bienes públicos.", mod: "" },
+                { titulo: "Técnicas de Investigación en Caso de Delitos de Corrupción", desc: "Proporcionar los conocimientos necesarios para seguir paso a paso técnicas de investigación que ayuden a observar y analizar hechos de corrupción dentro del marco constitucional.", mod: "" },
+                { titulo: "La Corrupción como Delito Precedente en la Legitimación de Capitales", desc: "Identificar las características del delito de Legitimación de Capitales y su regulación en el ordenamiento jurídico venezolano, en conexión con los delitos de corrupción.", mod: "" },
+                { titulo: "La Lucha contra la Corrupción y su Incidencia desde el Punto de Vista Internacional", desc: "Determinar las consecuencias que tiene el flagelo de la corrupción desde el punto de vista internacional.", mod: "" },
+                { titulo: "La Ética del funcionario Público", desc: "Ofrecer elementos conceptuales respecto a la ética, la importancia de la actuación apegada a ella, y su impacto en la calidad de vida y el desarrollo del país.", mod: "" },
                 { titulo: "Transparencia y Rendición de Cuentas en la Gestión Tecnológica", desc: "Mecanismos de acceso a la información pública, elaboración de informes de gestión transparentes, y manejo ético de recursos financieros y materiales.", mod: "" },
-                { titulo: "Prevención y Lucha Contra la Corrupción en Compras Públicas", desc: "Identificación de vulnerabilidades en procesos de adquisición de bienes y servicios tecnológicos, y aplicación de medidas de prevención de conflictos de interés.", mod: "" },
-                { titulo: "Responsabilidad Penal En La Comisión De Delitos Contra Los Derechos Humanos", desc: "Suministrar un conjunto amplio de conocimientos relacionado con los Derechos Humanos, sus generaciones y las sanciones a quienes los atenten.", mod: "" }
+                { titulo: "Prevención y Lucha contra la Corrupción en Compras Públicas", desc: "Identificación de vulnerabilidades en procesos de adquisición de bienes y servicios tecnológicos, y aplicación de medidas de prevención de conflictos de interés.", mod: "" },
+                { titulo: "Responsabilidad Penal en la Comisión de Delitos contra los Derechos Humanos", desc: "Suministrar un conjunto amplio de conocimientos relacionado con los Derechos Humanos, sus generaciones y las sanciones a quienes los atenten.", mod: "" }
               ]
           },
           {
               id: "sub-3-4",
               nombre: "Gestión Administrativa",
               cursos: [
-                { titulo: "Herramientas De Redacción De Comunicaciones En La Administración Pública", desc: "Identificar las principales reglas y prácticas para la redacción de documentos y comunicaciones en el entorno de la Administración Pública.", mod: "" },
-                { titulo: "Protocolo De Redacción De Actas Policiales Y Cadena De Custodia", desc: "Estudiar el Protocolo para la Redacción de Actas Policiales en el Proceso Penal y el Manual Único de Cadena de Custodia con el fin de unificar criterios.", mod: "" },
+                { titulo: "Herramientas de Redacción de Comunicaciones en la Administración Pública", desc: "Identificar las principales reglas y prácticas para la redacción de documentos y comunicaciones en el entorno de la Administración Pública.", mod: "" },
+                { titulo: "Protocolo de Redacción de Actas Policiales y Cadena de Custodia", desc: "Estudiar el Protocolo para la Redacción de Actas Policiales en el Proceso Penal y el Manual Único de Cadena de Custodia con el fin de unificar criterios.", mod: "" },
                 { titulo: "Curso Práctico de Elaboración de Actas de Entrega", desc: "Relacionar las técnicas y pautas requeridas para consolidar destrezas en la estructura y presentación de las actas de entrega, en concordancia con las normas para regular la entrega de los órganos de la administración pública.", mod: "" },
                 { titulo: "Elaboración de Artículos Científicos para Revistas Arbitradas", desc: "Estructura IMRyD, (Introducción, Métodos, Resultados y Discusión) técnicas de redacción científica clara y efectiva, y procesos de arbitraje y publicación.", mod: "" }
               ]
@@ -224,7 +224,7 @@ const dataCursos = [
                 { titulo: "Nuevas Perspectivas de Liderazgo", desc: "Conocer las nuevas perspectivas de liderazgo con el fin de potenciar las habilidades personales para la conducción de grupos.", mod: "Presencial" },
                 { titulo: "Modelo Barrett y el Liderazgo desde la Conciencia", desc: "Conocer las ventajas del Modelo Barrett para la potenciación del liderazgo desde la conciencia.", mod: "Presencial" },
                 { titulo: "Liderazgo vs. Jefatura", desc: "Capacitar a los participantes para que desarrollen habilidades de comunicación efectiva, movilización, y sean capaces de diseñar e implementar proyectos colaborativos de impacto positivo y sostenible en la comunidad.", mod: "" },
-                { titulo: "El Diálogo Como Herramienta Metodológica", desc: "Repensar nuestras formas de comunicación en comunidad para fortalecer el proyecto histórico en común", mod: "Presencial" },
+                { titulo: "El Diálogo como Herramienta Metodológica", desc: "Repensar nuestras formas de comunicación en comunidad para fortalecer el proyecto histórico en común", mod: "Presencial" },
                 { titulo: "Marca Personal o Colectiva", desc: "Capacitar a los participantes para que identifiquen su valor único y aprendan a gestionarlo de manera auténtica y coherente, mejorando su reputación, credibilidad e influencia.", mod: "" },
                 { titulo: "El Intelectual Orgánico", desc: "Develar el papel que tiene el intelectual en la transformación de las sociedades", mod: "Presencial" }
               ]
@@ -233,8 +233,8 @@ const dataCursos = [
               id: "sub-4-2",
               nombre: "Convivencia Social y Laboral",
               cursos: [
-                { titulo: "Comunicación Efectiva Y Liderazgo", desc: "Identificar la importancia de la comunicación en entornos laborales complejos y el impacto de la inteligencia emocional y la PNL en las relaciones interpersonales.", mod: "" },
-                { titulo: "Técnicas De Argumentación Y Oratoria", desc: "Ofrecer herramientas en la elaboración de discursos escritos u orales con el fin de coadyuvar a mejorar los distintos procesos de comunicación.", mod: "" },
+                { titulo: "Comunicación Efectiva y Liderazgo", desc: "Identificar la importancia de la comunicación en entornos laborales complejos y el impacto de la inteligencia emocional y la PNL en las relaciones interpersonales.", mod: "" },
+                { titulo: "Técnicas De Argumentación y Oratoria", desc: "Ofrecer herramientas en la elaboración de discursos escritos u orales con el fin de coadyuvar a mejorar los distintos procesos de comunicación.", mod: "" },
                 { titulo: "Valores Organizacionales", desc: "Identificar los principales Valores Organizacionales que deben estar presentes en todo momento en un ambiente laboral para lograr la mayor eficiencia posible.", mod: "" },
                 { titulo: "Potencialidades del círculo de Escucha Profunda y del Autorreconocimiento", desc: "Comprender los procesos de escucha profunda para mejorar las relaciones interpersonales desde el autorreconocimiento de nuestras potencialidades.", mod: "Presencial" }
               ]
@@ -250,7 +250,7 @@ const dataCursos = [
               id: "sub-5-1",
               nombre: "SUBGRUPO 1",
               cursos: [
-                { titulo: "Formación de Ética Y Valores En Niños, Niñas Y Adolescentes", desc: "Promover un programa de formación que eduque de manera integral a todo el personal, padres y representantes, y a los Niñas, Niños y Adolescentes en valores y ética.", mod: "" },
+                { titulo: "Formación de Ética y Valores en Niños, Niñas y Adolescentes", desc: "Promover un programa de formación que eduque de manera integral a todo el personal, padres y representantes, y a los Niñas, Niños y Adolescentes en valores y ética.", mod: "" },
                 { titulo: "Robótica Educativa", desc: "Promover la creatividad, el trabajo en equipo y la resolución de problemas a través de actividades prácticas de robótica.", mod: "Presencial" },
                 { titulo: "Cuenta Cuentos", desc: "Garantizar la formación en valores, a niños y niñas desde la temprana edad, de una manera más didáctica, pedagógica e interactiva.", mod: "" },
                 { titulo: "Juegos y Canciones", desc: "Dar a conocer la importancia de los valores y la ética a través de herramientas lúdicas y didácticas.", mod: "" }
@@ -279,11 +279,11 @@ const dataCursos = [
               nombre: "Identidad Nacional",
               cursos: [
                 { titulo: "Ética Bolivariana", desc: "Estudiar la vigencia del pensamiento bolivariano en la construcción de una ética socialista orientada hacia el logro de la mayor suma de felicidad posible.", mod: "Presencial" },
-                { titulo: "Identidad Nacional, Sentires Sociales Y Culturales Que Conforman La Venezolanidad", desc: "Realizar un recorrido histórico cultural por los espacios que constituyen la venezolanidad", mod: "Presencial" },
+                { titulo: "Identidad Nacional, Sentires Sociales y Culturales que Conforman la Venezolanidad", desc: "Realizar un recorrido histórico cultural por los espacios que constituyen la venezolanidad", mod: "Presencial" },
                 { titulo: "Identidad Nacional y Ciencia Abierta", desc: "Producir conocimientos para la vida basados en los saberes y haceres ancestrales.", mod: "Presencial" },
                 { titulo: "José Gregorio Hernández: Científico", desc: "Conocer los aportes del Dr. José Gregorio Hernández al ejercicio ético de la ciencia en Venezuela.", mod: "Presencial" },
                 { titulo: "José Gregorio Hernández: Escritor", desc: "Conocer los aportes científicos, literarios, filosóficos y epistolares del Dr. José Gregorio Hernández.", mod: "Presencial" },
-                { titulo: "José Gregorio Hernández: Del Hombre al Santo", desc: "Indagar en los aspectos que llevaron a José Gregorio Hernández a pasar del médico, científico y profesor universitario, al santo del pueblo venezolano.", mod: "Presencial" },
+                { titulo: "José Gregorio Hernández: del Hombre al Santo", desc: "Indagar en los aspectos que llevaron a José Gregorio Hernández a pasar del médico, científico y profesor universitario, al santo del pueblo venezolano.", mod: "Presencial" },
                 { titulo: "Detractores del Libertador: Ayer y hoy", desc: "Reflexionar sobre las formas y estrategias que han utilizado los detractores del Libertador, Simón Bolívar, desde el siglo XIX hasta el siglo XXI y los mecanismos de defensa de su legado por los pueblos emancipados.", mod: "Presencial" },
                 { titulo: "De Chuquisaca a la 6T", desc: "Develar la génesis del pensamiento conservacionista y ecológico del Simón Bolívar y su concreción en la Revolución Bolivariana.", mod: "Presencial" }
               ]
@@ -293,14 +293,14 @@ const dataCursos = [
               nombre: "Políticas Públicas y Ciencias Sociales",
               cursos: [
                 { titulo: "Soberanía e Injerencia del Hegemón USA en la Patria Grande Americana", desc: "Develar las políticas injerencistas de los EE.UU. en detrimento de la soberanía de los pueblos Nuestroamericanos.", mod: "Presencial" },
-                { titulo: "El Cine De Latinoamérica. Aportes Del Relato Cinematográfico De Nuestros Pueblos", desc: "Destacar la importancia y los aportes del cine nuestramericano en la construcción del relato del sujeto latinoamericano.", mod: "Presencial" },
+                { titulo: "El Cine de Latinoamérica. Aportes del Relato Cinematográfico de Nuestros Pueblos", desc: "Destacar la importancia y los aportes del cine nuestramericano en la construcción del relato del sujeto latinoamericano.", mod: "Presencial" },
                 { titulo: "La Nueva Cara del Fascismo: Cine Foro Para La Paz", desc: "Analizar los efectos del fascismo en las relaciones humanas y sus implicaciones negativas para lograr la paz y la sana convivencia de los pueblos.", mod: "Presencial" },
                 { titulo: "El Derecho a Vivir: Cine Foro para la Paz", desc: "Reflexionar sobre los efectos de la intervención norteamericana en los pueblos del Sur a partir de la proyección audiovisual de la película 'Voces Inocentes'", mod: "Presencial" },
-                { titulo: "La Gestión Social de la Ciencia Como Expresión de la Territorialización del Conocimiento en Venezuela", desc: "Reflexionar sobre los aspectos sustantivos de la gestión social de conocimiento como principio vertebrador de la política de territorialización del conocimiento", mod: "Presencial" },
+                { titulo: "La Gestión Social de la Ciencia como Expresión de la Territorialización del Conocimiento en Venezuela", desc: "Reflexionar sobre los aspectos sustantivos de la gestión social de conocimiento como principio vertebrador de la política de territorialización del conocimiento", mod: "Presencial" },
                 { titulo: "La Ciencia Neutral, un Falso Positivo Académico", desc: "Realizar una aproximación histórica desde una perspectiva crítica a la ciencia y su supuesta neutralidad.", mod: "Presencial" },
-                { titulo: "Políticas Públicas Transformadoras En Ciencia Y Tecnología", desc: "Comprender los procesos de diseño, aplicación y evaluación de políticas públicas en CTI para las comunidades", mod: "Presencial" },
-                { titulo: "Inducción Comités De Innovación y Tecnología", desc: "Dialogo con las comunidades para el fortalecimiento de las Nociones básicas, funciones y alcances de los CIT", mod: "Presencial" },
-                { titulo: "Normativa Legal, Referente Jurídico Del Accionar Comunitario", desc: "Conocer el conjunto de leyes y normativas que rigen el quehacer comunitario y orientan la planificación y accionar de las organizaciones comunitarias.", mod: "Presencial" },
+                { titulo: "Políticas Públicas Transformadoras en Ciencia Y Tecnología", desc: "Comprender los procesos de diseño, aplicación y evaluación de políticas públicas en CTI para las comunidades", mod: "Presencial" },
+                { titulo: "Inducción Comités de Innovación y Tecnología", desc: "Dialogo con las comunidades para el fortalecimiento de las Nociones básicas, funciones y alcances de los CIT", mod: "Presencial" },
+                { titulo: "Normativa Legal, Referente Jurídico del Accionar Comunitario", desc: "Conocer el conjunto de leyes y normativas que rigen el quehacer comunitario y orientan la planificación y accionar de las organizaciones comunitarias.", mod: "Presencial" },
                 { titulo: "Guerra Cognitiva: Efectos y Herramientas para superarla", desc: "Reflexionar sobre los efectos de la guerra cognitiva en el contexto de asedio agresión a los pueblos del mundo.", mod: "Presencial" },
                 { titulo: "Herramientas y Habilidades para el Fortalecimiento Psicosocial", desc: "Identificar herramientas y habilidades que fortalezcan la comprensión y reflexión sobre los efectos psicosociales en el contexto de la agresión militar del 3 de enero de 2026", mod: "Presencial" },
                 { titulo: "El Cuidado: Nueva forma de estar en el mundo con los otros y la naturaleza", desc: "Reflexionar sobre la necesidad del cuidado como práctica cotidiana para proteger lo esencial humano en el contexto de violencia que vive la humanidad.", mod: "Presencial" },
@@ -421,7 +421,7 @@ function agregarBloqueCurso() {
         </div>
         <div class="row g-2 mb-3">
             <div class="col-md-6">
-                <label class="small fw-bold mb-1">Tema</label>
+                <label class="small fw-bold mb-1catSelect.innerHTML">Tema</label>
                 <select id="tema-${index}" required class="form-select" onchange="actualizarCategorias(${index})">
                     <option value="">-- Seleccionar --</option>
                     ${dataCursos.map(t => `<option value="${t.id}">${t.nombre}</option>`).join('')}
