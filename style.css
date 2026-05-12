@@ -46,9 +46,12 @@
 
 /* Estilos del Encabezado */
 .header-6t {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
   background-color: #ffffff;
   border-bottom: 4px solid var(--6t-green);
-  margin-bottom: 2rem;
+  margin-bottom: 0rem;
 }
 
 .logo-header {
@@ -99,4 +102,19 @@
 
 #btn-agregar-curso:hover {
   background-color: rgba(29, 54, 109, 0.05);
+}
+
+#btn-volver-grupos, #btn-volver-subgrupos {
+  position: sticky;
+  margin-top: -70px;
+  margin-bottom: 20px;
+  margin-left: -100px;
+  top: 90px;
+  z-index: 999;
+  background-color: var(--6t-blue);
+  border: 2px solid var(--6t-green);
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  transition: all 0.3s ease;
+  color: white;
 }

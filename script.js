@@ -2,7 +2,7 @@ const dataCursos = [
   {
       id: "tema-1",
       nombre: "Herramientas Tecnológicas y Software Libre",
-      desc: "AGREGAR DESCRIPCION.",
+      desc: "Fomentando la colaboración y la innovación a través de las herramientas tecnológicas y el software libre.",
       subgrupos: [
           {
               id: "sub-1-1",
@@ -75,13 +75,13 @@ const dataCursos = [
   {
       id: "tema-2",
       nombre: "Ciencias Naturales y Ambientales",
-      desc: "AQUÍ TAMBIÉN.",
+      desc: "Campos interdisciplinarios fundamentales para comprender el funcionamiento del universo, los procesos de la naturaleza y el impacto humano en el entorno.",
       subgrupos: [
           {
               id: "sub-2-1",
-              nombre: "SUBGRUPO 1",
+              nombre: "Ciencias Naturales y Ambientales",
               cursos: [
-                { titulo: "Importancia de los Alacranes", desc: "", mod: "" },
+                { titulo: "Importancia de los Alacranes", desc: "Fundamentales para el equilibrio ecológico al actuar como controladores naturales de plagas. Además, su veneno es de gran valor médico para la creación de fármacos y sirven como indicadores de la salud ambiental.", mod: "" },
                 { titulo: "Enfermedades Intestinales (Lavado de Manos, Agua Segura)", desc: "Fortalecer la capacidad de la comunidad para prevenir la propagación de enfermedades intestinales, promoviendo la adopción de prácticas de higiene y saneamiento ambiental sostenibles.", mod: "" },
                 { titulo: "Prevención de enfermedades por Mosquitos", desc: "Fortalecer la capacidad de la comunidad para prevenir la propagación de enfermedades transmitidas por vectores, promoviendo la adopción de prácticas de higiene y saneamiento ambiental sostenibles.", mod: "" },
                 { titulo: "La Huella de Carbono", desc: "Proporcionar a los participantes, los principios y conceptos relacionados con la Huella de Carbono, en el marco del proyecto “Tecnologías Verdes” dedicado a la difusión y desarrollo sostenible de tecnologías libres y no contaminantes de para el avance de la ciencia para la vida.", mod: "Presencial" },
@@ -93,7 +93,7 @@ const dataCursos = [
   {
       id: "tema-3",
       nombre: "Administración Pública y Participación Ciudadana",
-      desc: "AQUÍ TAMBIÉN.",
+      desc: "Derecho y una estrategia fundamental que permite a los ciudadanos intervenir en la toma de decisiones, formulación, implementación y control de políticas públicas.",
       subgrupos: [
           {
               id: "sub-3-1",
@@ -214,7 +214,7 @@ const dataCursos = [
   {
       id: "tema-4",
       nombre: "Liderazgo y Comunicación Efectiva",
-      desc: "AQUÍ TAMBIÉN.",
+      desc: "Pilares inseparables para influir positivamente, alinear equipos hacia metas comunes y fomentar un ambiente de confianza y colaboración, tanto en el ámbito personal como profesional.",
       subgrupos: [
           {
               id: "sub-4-1",
@@ -244,11 +244,11 @@ const dataCursos = [
   {
       id: "tema-5",
       nombre: "Actividades Didácticas y Formación Infantil",
-      desc: "AQUÍ TAMBIÉN.",
+      desc: "Un ambiente de aprendizaje positivo para el crecimiento integral de los niños y niñas, estimular su curiosidad, creatividad y habilidades sociales, sentando las bases para un desarrollo saludable y exitoso a lo largo de su vida.",
       subgrupos: [
           {
               id: "sub-5-1",
-              nombre: "SUBGRUPO 1",
+              nombre: "Actividades Didácticas y Formación Infantil",
               cursos: [
                 { titulo: "Formación de Ética Y Valores En Niños, Niñas Y Adolescentes", desc: "Promover un programa de formación que eduque de manera integral a todo el personal, padres y representantes, y a los Niñas, Niños y Adolescentes en valores y ética.", mod: "" },
                 { titulo: "Robótica Educativa", desc: "Promover la creatividad, el trabajo en equipo y la resolución de problemas a través de actividades prácticas de robótica.", mod: "Presencial" },
@@ -261,7 +261,7 @@ const dataCursos = [
   {
       id: "tema-6",
       nombre: "Folklore Venezolano e Identidad Nacional",
-      desc: "AQUÍ TAMBIÉN.",
+      desc: "La expresión de la soberanía en forma de saberes ancestrales y memoria histórica, exaltando el sentido de pertenencia a la patria.",
       subgrupos: [
           {
               id: "sub-6-1",
@@ -271,7 +271,7 @@ const dataCursos = [
                 { titulo: "La Yuca Raíz del Casabe", desc: "Conocer las técnicas de elaboración del casabe a través del ingenio y la tecnología ancestral para extraerle el veneno a la yuca brava convertida en la torta de casabe, el mañoco y la naiboa.", mod: "Presencial" },
                 { titulo: "Elaboración de Wayunkeras", desc: "Conocer la técnica para la elaboración de muñecas de barro crudo como aporte cultural del pueblo Wayuu.", mod: "Presencial" },
                 { titulo: "Elaboración de Leña Artificial", desc: "Conocer la fórmula del Maestro Simón Rodríguez para la elaboración de la leña artificial.", mod: "Presencial" },
-                { titulo: "Construcción y Manejo de Títeres", desc: "Impulsar la participación ciudadana a través del teatro de Títeres  CANTIDAD DE PARTICIPANTES MAXIMO 15 MINIMO 10  DIRIGIDO A NIÑOS, JOVENES Y ADULTOS", mod: "Presencial" }
+                { titulo: "Construcción y Manejo de Títeres", desc: "Impulsar la participación ciudadana a través del teatro de Títeres<br><br>CANTIDAD DE PARTICIPANTES:<br>MAXIMO 15<br>MINIMO 10 <br>DIRIGIDO A NIÑOS, JOVENES Y ADULTOS", mod: "Presencial" }
               ]
           },
           {
@@ -312,11 +312,11 @@ const dataCursos = [
   {
       id: "tema-7",
       nombre: "Vivienda, Hábitat y Desarrollo Urbano",
-      desc: "AQUÍ TAMBIÉN.",
+      desc: "Conocimientos para garantizar la calidad e idoneidad de materiales, tipologías, tecnologías y diseños, usos y aplicaciones en vivienda, hábitat y desarrollo urbano.",
       subgrupos: [
           {
               id: "sub-7-1",
-              nombre: "SUBGRUPO 1",
+              nombre: "Vivienda, Hábitat y Desarrollo Urbano",
               cursos: [
                 { titulo: "Cabillas", desc: "", mod: "" },
                 { titulo: "Elementos de la Construcción", desc: "", mod: "" },
