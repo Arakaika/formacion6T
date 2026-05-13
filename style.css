@@ -45,18 +45,16 @@
 }
 
 /* Estilos del Encabezado */
-.header-6t {
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  background-color: #ffffff;
-  border-bottom: 4px solid var(--6t-green);
-  margin-bottom: 0rem;
+.header-6t .container-fluid {
+  white-space: nowrap;
+  background-color: white;
 }
 
 .logo-header {
-  max-height: 50px; /* Ajusta según prefieras */
+  justify-content: center;
+  max-height: 45px;
   width: auto;
+  flex-shrink: 0; /* Evita que los logos se aplasten */
 }
 
 /* Personalización de Tarjetas y Botones */
@@ -105,16 +103,38 @@
 }
 
 #btn-volver-grupos, #btn-volver-subgrupos {
-  position: sticky;
-  margin-top: -70px;
-  margin-bottom: 20px;
-  margin-left: -100px;
-  top: 90px;
-  z-index: 999;
+  position: fixed;
+  right: 20px;       /* Distancia del borde izquierdo */
+  top: 65px;        /* Justo debajo del header (ajusta según altura del header) */
+  z-index: 1100;    /* Por encima de todo */
+  width: auto;
+  max-width: fit-content;
+  padding: 10px 15px;
   background-color: var(--6t-blue);
+  color: white;
   border: 2px solid var(--6t-green);
   border-radius: 8px;
-  padding: 0.5rem 1rem;
-  transition: all 0.3s ease;
-  color: white;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  font-size: 0.9rem;
+}
+
+/* Asegurar que las tarjetas de cursos mantengan el mismo alto */
+#contenedor-cursos .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media (min-width: 1400px) {
+  main.container {
+      max-width: 1140px; /* Asegura espacio para el botón a los lados */
+  }
+}
+
+@media (max-width: 768px) {
+  #btn-volver-grupos, #btn-volver-subgrupos {
+      right: 10px;
+      padding: 5px 10px;
+      font-size: 0.8rem;
+  }
 }

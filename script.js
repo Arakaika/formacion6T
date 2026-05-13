@@ -384,6 +384,7 @@ function seleccionarTema(id) {
             </div>
         </div>
     `).join('');
+    window.scrollTo({top: 0, behavior: 'smooth'});
 }
 
 function seleccionarSubgrupo(id) {
@@ -401,6 +402,7 @@ function seleccionarSubgrupo(id) {
             </div>
         </div>
     `).join('');
+    window.scrollTo({top: 0, behavior: 'smooth'});
 }
 
 function volverAGrupos() { renderNivel1(); }
