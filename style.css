@@ -1,3 +1,52 @@
+/* --- Estilos del Carrusel Infinito --- */
+.carousel-track {
+    display: flex;
+    width: calc(250px * 8); /* Ajusta según el número de logos */
+    animation: scroll-carrusel 20s linear infinite;
+    position: absolute;
+    left: 0;
+    align-items: center;
+}
+
+.carousel-group {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.carousel-group a {
+    margin: 0 40px; /* Espaciado entre logos del carrusel */
+}
+
+/* Pausa al pasar el cursor */
+.carousel-track:hover {
+    animation-play-state: paused;
+}
+
+/* Opacidad de los logos en movimiento */
+.opacity-carrusel {
+    opacity: 0.4;
+    transition: opacity 0.3s ease;
+}
+
+.carousel-track a:hover .opacity-carrusel {
+    opacity: 1; /* Recupera color al pasar el cursor sobre un logo específico */
+}
+
+/* --- Logo 6T Central e Inmóvil --- */
+.logo-central-fijo {
+    position: relative;
+    z-index: 100; /* Asegura que esté por delante */
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente para legibilidad */
+    padding: 5px 15px;
+    border-radius: 50px;
+}
+
+.logo-6t-main {
+    max-height: 55px; /* Un poco más grande que los laterales */
+    width: auto;
+}
+
 .nav-card {
   cursor: pointer;
   border: 2px solid #eee;
@@ -51,10 +100,8 @@
 }
 
 .logo-header {
-  justify-content: center;
   max-height: 45px;
   width: auto;
-  flex-shrink: 0; /* Evita que los logos se aplasten */
 }
 
 /* Personalización de Tarjetas y Botones */
@@ -105,7 +152,7 @@
 #btn-volver-grupos, #btn-volver-subgrupos {
   position: fixed;
   right: 20px;       /* Distancia del borde izquierdo */
-  top: 65px;        /* Justo debajo del header (ajusta según altura del header) */
+  top: 85px;        /* Justo debajo del header (ajusta según altura del header) */
   z-index: 1100;    /* Por encima de todo */
   width: auto;
   max-width: fit-content;
@@ -137,4 +184,9 @@
       padding: 5px 10px;
       font-size: 0.8rem;
   }
+}
+
+@keyframes scroll-carrusel {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
 }
